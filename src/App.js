@@ -57,7 +57,7 @@ function App() {
   // Different Pokemon Evolution stages
   const firstStage = pokemonEvolutionChain?.chain?.species.name;
   const secondStage = pokemonEvolutionChain?.chain?.evolves_to;
-  const thirdStage = pokemonEvolutionChain?.chain?.evolves_to[0].evolves_to;
+  const thirdStage = pokemonEvolutionChain?.chain?.evolves_to[0]?.evolves_to;
   return (
     <div className={"pokedex__container"}>
       <div className={"pokedex__search-input"}>
