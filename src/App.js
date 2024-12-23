@@ -53,6 +53,8 @@ function App() {
       console.error("Error fetching Pokémon details", error);
     }
   };
+
+  // Different Pokemon Evolution stages
   const firstStage = pokemonEvolutionChain?.chain?.species.name;
   const secondStage = pokemonEvolutionChain?.chain?.evolves_to;
   const thirdStage = pokemonEvolutionChain?.chain?.evolves_to[0].evolves_to;
