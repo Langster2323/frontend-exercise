@@ -48,10 +48,12 @@ Please take some time to answer the following questions. Your answers should go 
 
 - Given more time, what would you suggest for improving the performance of this app?
     Answer: 
-    - If I had more time, I'd like to spend more time refactoring the App.js file into separate componets, to <PokemonList />, <SearchBar />, <Pokemon /> for example. Then apply lazy loading where applicable.
+    - I'd like to spend more time refactoring the App.js file into separate componets, to <PokemonList />, <SearchBar />, <Pokemon />, <Button />, <Input />, for example. Then apply lazy loading where applicable. 
+    - Create an Atomic design pattern structure for the components
     - I'd also like to include Typescript into the components add types and unions to hooks and create a types.ts file to hold all of the type declarations.
     - I'd also included Memorization, and utilize the useMemo and useCallback hooks.
     - Infinite scrolling to the search results list
+    - Add some simple transitions and animations between for when the details card of a pokemon appears and the information in the card changes. Would also add some fun stacking animation in the pokemon list section
 
 - Is there anything you would consider doing if we were to go live with this app?
     Answer:
