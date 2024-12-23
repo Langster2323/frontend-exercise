@@ -17,6 +17,9 @@ body {
 .pokedex__content {
   display: flex;
   gap: 5rem;
+  @media (max-width: 650px) {
+    flex-direction: column;
+  }
 }
 
 .pokedex__search-input {
