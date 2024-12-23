@@ -47,7 +47,19 @@ When you are finished, please upload your completed work to your Github and invi
 Please take some time to answer the following questions. Your answers should go directly in this `readme`.
 
 - Given more time, what would you suggest for improving the performance of this app?
+    Answer: 
+    - If I had more time, I'd like to spend more time refactoring the App.js file into separate componets, to <PokemonList />, <SearchBar />, <Pokemon /> for example. Then apply lazy loading where applicable.
+    - I'd also like to include Typescript into the components add types and unions to hooks and create a types.ts file to hold all of the type declarations.
+    - I'd also included Memorization, and utilize the useMemo and useCallback hooks.
+    - Infinite scrolling to the search results list
 
 - Is there anything you would consider doing if we were to go live with this app?
+    Answer:
+    - I'd consider syncing with a designer to work on a higher fidelity version of this mockup. Maybe we use a Pokedex frame and include pokemon images to the mockup. So when a user clicks on the get details button the image of the pokemon appears. 
+    - I'd also consider utilizing Amplify or Supabase to give us an out of the box 2FA flow.
+    - Give the user the ablility to favorite their pokemon and maybe even compare two pokemon at the same time.
+    - Create a simple fun landing page a user can visit, where they'll be information about the available pokemon in the current pokedex.
 
 - What was the most challenging aspect of this work for you (if at all)?
+    Answer:
+    - I thought the trickiest aspect of this work was getting the evolution data and different evolutions to appear.
